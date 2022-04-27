@@ -22,3 +22,6 @@
 - [x] Responsividade 
 - [x] footer
 
+<h1 align="center">
+  <img alt="print do projeto nas telas de celular tablet e nootbook" title="#decodificadordetexto" src="./imgs/telas.png" />
+</h1>
