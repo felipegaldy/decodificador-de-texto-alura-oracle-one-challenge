@@ -1,0 +1,301 @@
+body {
+    background: #F3F5FC;
+    font-family: 'Inter', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.main-container {
+    display: grid;
+    width: 100%;
+    height: 90vh;
+    grid-template-areas: 
+    'logo input input output'
+    'logo input input output'
+    'logo input input output'
+    'logo button button output';
+}
+.logo {
+    grid-area: logo;
+    justify-self: center;
+    margin: 40px 0px 0px 0px;
+}
+.input {
+    grid-area: input;
+    width: 100%;
+    margin-top: 10%;
+}
+#mensagem {
+    background: #F3F5FC;
+    border: none;
+    font-size: 32px;
+    font-weight: 400;
+    color: #0A3871;
+    width: 90%;
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    resize: none;
+    padding: 10px;
+}
+.btn {
+    width: 332px;
+    height: 67px;
+    border-radius: 24px;
+    padding: 24px;
+    margin: 0 20px;
+    font-size: 16px;
+    border: #0A3871 1px solid;
+}
+.buttons {
+    grid-area: button;
+    width: 100%;
+}
+.buttons > p {
+    margin: 0 20px;
+    padding: 14px;
+}
+button:hover {
+    cursor: pointer;
+}
+button:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    opacity: 0.9;
+}
+#btn1{
+    background: rgba(10, 56, 113, 1);
+    color: rgba(255, 255, 255, 1);
+}
+#btn1:hover {
+    opacity: 0.9;
+    font-weight: bold;
+}
+#btn2{
+    color: #0A3871;
+}
+#btn2:hover {
+    font-weight: bold;
+    opacity: 0.7;
+}
+.output {
+    grid-area: output;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 1);
+    margin: 40px 40px 40px 0;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    text-align: center; 
+    justify-content: center;
+}
+.output > img {
+    width: 336px;
+}
+.output > :nth-child(2){
+    width: 336px;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 16px auto;
+    line-height: 120%;
+}
+.output > :last-child {
+    font-size: 16px;
+    line-height: 150%;
+}
+.output-cripto {
+    grid-area: output;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    width: 400px;
+    padding: 24px;
+    background-color: rgba(255, 255, 255, 1);
+    margin: 40px 40px 40px 0;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    justify-content: space-between;
+}
+.output-cripto textarea{
+    width: 336px;
+    height: 100%;
+    margin: 0 auto;
+    color: rgba(73, 80, 87, 1);
+    font-size: 24px;
+    border: none;
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    resize: none;
+}
+.botao-copiar {
+    margin: 0 auto;
+    width: 332px;
+    height: 67px;
+    border-radius: 24px;
+    padding: 24px;
+    font-size: 16px;
+    border: #0A3871 1px solid;
+}
+
+.mensagem-invalida{
+    width: fit-content;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid rgba(241, 6, 6, 0.81);
+    background-color: rgba(220, 17, 1, 0.16);
+    box-shadow: 0px 0px 2px #ff0303;
+    color: #ff0303;
+    transition: 1s;
+    transform: translate(0,-50%);
+    -webkit-animation: blink-1 3s infinite both;
+	        animation: blink-1 3s infinite both;
+}
+@-webkit-keyframes blink-1 {
+ 0%,
+ 50%,
+ 100% {
+   opacity: 1;
+ }
+ 25%,
+ 75% {
+   opacity: 0.5;
+ }
+}
+@keyframes blink-1 {
+ 0%,
+ 50%,
+ 100% {
+   opacity: 1;
+ }
+ 25%,
+ 75% {
+   opacity: 0.5;
+ }
+}
+
+
+@media screen and (max-width:1280px) {
+
+    .btn {
+        width: 270px;
+        margin-bottom: 24px;
+    }
+    
+}
+
+
+@media screen and (max-width:800px) {
+    .main-container{
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        flex-flow: column;
+    }
+    #img-output{
+        display: none;
+    }
+    .logo {
+        margin: 10px;
+    }
+    .input {
+        margin-top: 0;
+        height: 65vh;
+    }
+    .buttons {
+        text-align: start;
+    }
+    .btn{
+        width: 332px;
+    }
+    .output {
+        width: 688px;
+        margin: 0 auto;
+    }
+    .output > :nth-child(2){
+        width: 624px;
+        font-weight: bold;
+        font-size: 24px;
+        margin: 0 auto;
+        margin-top: 32px;
+        line-height: 120%;
+    }
+    .output > :last-child {
+        font-size: 16px;
+        line-height: 150%;
+        margin:16px 32px 32px 32px;
+    }
+    .output-cripto{
+        width: 688px;
+        height: 100%;
+        margin: 0 auto;
+        font-size: 24px;
+    }
+    .output-cripto textarea {
+        width: 620px;
+        height: 100%;
+        margin: 0 auto;
+        margin-bottom: 32px;
+    }
+    .botao-copiar{
+        width: 624px;
+        margin: 32px 32px 0px 32px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .input {
+        height: 30vh;
+    }
+    .buttons > p {
+        font-size: 10px;
+        margin: 0 20px;
+        padding: 14px;
+    }
+    .btn {
+        width: 332px;
+        margin-bottom: 24px;
+    }
+    .output {
+        width: 327px;
+        margin: 0 auto;
+    }
+    .output > :nth-child(2){
+        width: 263px;
+        font-weight: bold;
+        font-size: 24px;
+        margin: 0 auto;
+        margin-top: 32px;
+        line-height: 120%;
+    }
+    .output > :last-child {
+        font-size: 16px;
+        line-height: 150%;
+        margin:16px 32px 32px 32px;
+    }
+    .output-cripto{
+        width: 343px;
+        margin: 0 auto;
+        height: 100%;
+        font-size: 24px;
+    }
+    .output-cripto textarea {
+        width: 279px;
+        margin: 0 auto;
+        height: 100%;
+        margin-bottom: 32px;
+        order: 0;
+    }
+    .output-cripto .botao-copiar{
+        width: 279px;
+        margin: 0 auto;
+    }
+
+}
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-content-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/69db308f65.js" crossorigin="anonymous"></script>
+    <title>Decodificador</title>
+</head>
+<body>
+
+    <section class="main-container">
+        <section class="logo">
+            <a href="index.html"><img src="imgs/Vector.png" alt="logo oracle + alura"></a>
+        </section>
+        <section class="input">
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+        </section>
+        <section class="buttons">
+            <p class="regra"><small><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#495057"
+                class="bi bi-exclamation-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552
+                0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4zm.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+              </svg>
+                Apenas letras minúsculas e sem acento.</small></p>
+            <button class="btn" id="btn1">Criptografar</button>
+            <button class="btn" id="btn2">Desriptografar</button>
+        </section>
+        <section class="output">
+            <img id="img-output" src="imgs/High quality products 1 1.png" alt="desenho garoto de joelhos com lupa">
+            <p>Nenhuma mensagem encontrada</p>
+            <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+        </section>
+    </section>
+
+    <footer class="rodape">
+
+        <p>Desenvolvido por &copy;felipeSilveira</p>
+        <ul class="contatos">
+            <li><a href="https://github.com/felipegaldy/" target="_blank"><i class="fa fa-github" aria-hidden="true" style="font-size: 40px;"></a></i></li>
+            <li><a href="https://www.linkedin.com/in/felipesilveirasp/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true" style="font-size: 40px;"></i></a></li>
+            <li><a href="mailto:felipe.silveira4@fatec.sp.gov.br" target="_blank"><i class="fa fa-envelope" aria-hidden="true" style="font-size: 40px;"></i></a></li>
+        </ul>
+    </footer>
+
+    <script src="js/criptografar.js"></script>
+    <script src="js/descriptografar.js"></script>
+    
+</body>
+</html>
