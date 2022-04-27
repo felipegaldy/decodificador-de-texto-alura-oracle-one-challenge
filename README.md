@@ -25,3 +25,5 @@
 <h1 align="center">
   <img alt="print do projeto nas telas de celular tablet e nootbook" title="#decodificadordetexto" src="./imgs/telas.png" />
 </h1>
+
+https://user-images.githubusercontent.com/99551212/165577785-699ae7f9-708a-4c9c-877a-1ecdefba72e6.mp4
