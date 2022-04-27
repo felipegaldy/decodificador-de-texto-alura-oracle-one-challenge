@@ -2,12 +2,10 @@
 ## Aplicação que criptografa e descriptografa textos, desenvolvida com HTML, CSS e Javascript no Alura Challenge Oracle ONE Iniciante em Programação.
 
 <p align="center">
- <a href="#objetivo">Objetivo</a> •
- <a href="#regras">Regras</a> • 
- <a href="#tecnologias">Tecnologias</a> • 
- <a href="#contribuicao">Contribuição</a> • 
- <a href="#licenc-a">Licença</a> • 
- <a href="#autor">Autor</a>
+ <a href="#Funcionalidades">Funcionalidades</a> •
+ <a href="#Layout">Layout</a> • 
+ <a href="#Tecnologias">Tecnologias</a> • 
+ <a href="#Autor">Autor</a>
 </p>
 
 <h4 align="center"> 
