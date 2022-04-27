@@ -27,7 +27,7 @@
 
 https://user-images.githubusercontent.com/99551212/165577785-699ae7f9-708a-4c9c-877a-1ecdefba72e6.mp4
 
-### 🛠 Tecnologias
+### Tecnologias
 
 - [HTML]
 - [CSS]
