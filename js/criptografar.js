@@ -4,7 +4,7 @@ var botaoCripto = document.querySelector('#btn1');
 botaoCripto.addEventListener('click', function(){
     var mensagem = document.querySelector('#mensagem').value;
     let regex = /[á-ùÁ-ÙA-Z@!#$%^&*?;|§ªº°~´`¬><"'+=()/\\]/g.test(mensagem);
-    if(regex){
+    if(regex || !mensagem){
         var erroMsg = document.querySelector('.regra');
         erroMsg.classList.add('mensagem-invalida')
 
