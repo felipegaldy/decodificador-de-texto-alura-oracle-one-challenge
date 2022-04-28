@@ -1,11 +1,8 @@
 .rodape {
-    grid-area: footer;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(2,0,36,1) 100%);
     color: white;
     bottom: 0;
-    left: 0;
-    right: 0;
     text-align: center;
     padding: 10px;
     opacity: 1;
