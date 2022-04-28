@@ -1,6 +1,7 @@
 body {
     background: #F3F5FC;
     font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
 }
 a {
     text-decoration: none;
@@ -14,7 +15,8 @@ a {
     'logo input input output'
     'logo input input output'
     'logo input input output'
-    'logo button button output';
+    'logo button button output'
+    'footer footer footer footer' ;
 }
 .logo {
     grid-area: logo;
