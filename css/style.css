@@ -299,5 +299,9 @@ button:active {
         margin: 0 auto;
     }
 
+    footer {
+        margin-top: 42px;
+    }
+
 }
 
