@@ -94,6 +94,7 @@ button:active {
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     text-align: center; 
     justify-content: center;
+    align-items: center;
 }
 .output > img {
     width: 336px;
