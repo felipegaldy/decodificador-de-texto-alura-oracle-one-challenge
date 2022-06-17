@@ -18,6 +18,8 @@ a {
     'logo button button output'
     'footer footer footer footer' ;
 }
+
+
 .logo {
     grid-area: logo;
     justify-self: center;
